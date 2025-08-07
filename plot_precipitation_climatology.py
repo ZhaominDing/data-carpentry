@@ -1,10 +1,12 @@
+import argparse
+import warnings
+
 import xarray as xr
 import cartopy.crs as ccrs
 import matplotlib.pyplot as plt
 import numpy as np
 import cmocean
-import argparse
-import warnings
+
 
 warnings.filterwarnings("ignore", category=UserWarning)  
 warnings.filterwarnings("ignore", category=RuntimeWarning) 
